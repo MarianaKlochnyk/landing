@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+  background-image: url(images/Headphones-image-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 120px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(images/phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu__bottom {
+  padding: 64px 120px;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
